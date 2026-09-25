@@ -33,6 +33,10 @@ The logs showed:
 
 This activity suggested that an unauthorized user had successfully gained root access to the system.
 
+### Initial SSH Login
+
+![Initial SSH login](screenshots/initial-ssh-login.png)
+
 ## Malicious Script Identification
 
 During the investigation, I identified a malicious shell script named:
@@ -59,6 +63,10 @@ My remediation steps included:
 - Preserving authentication logs for analysis
 - Recording the investigation results in `findings.txt`
 
+### Final System Tree
+
+![Final system tree](screenshots/final-system-tree.png)
+
 ## SSH Key-Based Authentication
 
 As a stretch challenge, I configured and tested SSH key-based authentication.
@@ -71,6 +79,10 @@ I:
 4. Successfully authenticated to the deployment account using the new private key
 
 This exercise helped reinforce the relationship between public and private keys and how SSH key-based authentication can provide stronger access control than password-only authentication.
+
+### Successful Authentication With New Key
+
+![New key authentication](screenshots/new-key-authentication.png)
 
 ## Security Recommendation
 
