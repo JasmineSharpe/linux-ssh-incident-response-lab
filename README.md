@@ -8,6 +8,13 @@ The lab simulated a compromised Linux deployment server inside a Docker environm
 
 The project gave me hands-on practice connecting Linux administration, authentication logs, shell scripting, incident response, and SSH security concepts in one environment.
 
+## Project Highlights
+- Investigated suspicious SSH authentication activity
+- Identified and analyzed a malicious shell script
+- Performed Linux system triage and remediation
+- Configured and verified Ed25519 SSH key-based authentication
+- Documented findings and proposed a security hardening recommendation
+
 ## Tools and Technologies
 
 - Linux
